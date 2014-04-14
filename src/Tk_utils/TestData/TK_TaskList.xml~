@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<TK_TaskList>
+<TK_CurrentTasks>
+  <TK_TaskName>Programming</TK_TaskName>
+  <TK_TaskName>JobSearch</TK_TaskName>
+  <TK_TaskName>Break</TK_TaskName>
+  <TK_TaskName>Design</TK_TaskName>
+  <TK_TaskName>Testing</TK_TaskName>
+</TK_CurrentTasks>
+<TK_NonCurrentTasks>
+  <TK_TaskName>Lobster sexing</TK_TaskName>
+  <TK_TaskName>Building Time Machine</TK_TaskName>
+  <TK_TaskName>CockTail design</TK_TaskName>
+  <TK_TaskName>Brewing Beer</TK_TaskName>
+  <TK_TaskName>Testing rubber bands</TK_TaskName>
+</TK_NonCurrentTasks>
+<TK_RetiredTasks>
+  <TK_TaskName>Network Administration</TK_TaskName>
+  <TK_TaskName>Fishing</TK_TaskName>
+  <TK_TaskName>Break and Enter</TK_TaskName>
+  <TK_TaskName>Designing death ray</TK_TaskName>
+  <TK_TaskName>Testing death ray</TK_TaskName>
+</TK_RetiredTasks>
+</TK_TaskList>

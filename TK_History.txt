@@ -1,0 +1,13 @@
+TK_History :: TK_TaskList
+
+TK_TaskList :: TK_Task TK_TaskList | Empty
+
+TK_Task :: TaskName TK_CurrentTask TK_SessionRecord TK_TotalTime
+
+TK_SessionRecord :: TK_TimeRecord TK_TimeList
+
+
+TK_TimeList :: Tk_TimeRecord TK_TimeList | Empty
+
+TK_TimeRecord :: TK_CurrentRecord TK_StartTime TK_EndTime TK_ElapsedTime
+

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="file:///Users/michaelwebster/java_programming/TimeKeeperModel">
+  <xs:element name="TK_History">
+    <!-- <TK_History> -->
+    <xs:complexType>
+      <xs:choice id="TK_AllTasks" minOccurs="0" maxOccurs="3">
+	<xs:element name="TK_CurrentTasks" minOccurs="0" maxOccurs="1">
+	  <!--   <TK_CurrentTasks> -->
+	  <xs:complexType>
+	    <xs:sequence>
+	      <!--  <TK_Task name="Programming" Tk_CurrentTask="true" Tk_TotalTime="25:02:26"> -->
+	      <xs:element name="TK_Task" type="currentTask" minOccurs="0" maxOccurs="unbounded"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="TK_RetiredTasks" minOccurs="0" maxOccurs="1">
+	  <!--   <TK_RetiredTasks> -->
+	  <xs:complexType>
+	    <xs:sequence>
+	      <!-- <TK_Task name="Patent Searching" Tk_TotalTime="25:02:26"> -->
+	      <xs:element name="TK_Task" type="task" minOccurs="0" maxOccurs="unbounded"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="TK_DeletedTasks" minOccurs="0" maxOccurs="1">
+	  <!--   <TK_DeleteddTasks> -->
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="TK_Task" type="task" minOccurs="0" maxOccurs="unbounded"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+
+
+  <!-- TK_TimeRecord -->
+  <xs:complexType name="timeRecord">
+    <xs:sequence>
+      <!--
+      <TK_TimeRecord>
+	<TK_StartTime>Wed Nov 13 16:13:48 EST 2013</TK_StartTime>
+	<TK_EndTime>Wed Nov 13 16:14:31 EST 2013</TK_EndTime>
+	<TK_ElapsedTime>00:00:43</TK_ElapsedTime>
+      </TK_TimeRecord>
+      -->
+      <xs:element name="TK_StartTime" type="xs:dateTime" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="TK_EndTime" type="xs:dateTime" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="TK_ElapsedTime" type="xs:time" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- TK_TimeRecord  current task version -->
+  <xs:complexType name="currentTimeRecord">
+    <!--
+      <TK_TimeRecord isCurrent="true">
+	<TK_StartTime>Wed Nov 13 16:13:48 EST 2013</TK_StartTime>
+	<TK_EndTime>Wed Nov 13 16:14:31 EST 2013</TK_EndTime>
+	<TK_ElapsedTime>00:00:43</TK_ElapsedTime>
+      </TK_TimeRecord>
+    -->
+    <xs:complexContent>
+      <xs:extension base="timeRecord">
+	<xs:attribute name="isCurrent" type="xs:boolean"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <!-- TK_Task -->
+  <xs:complexType name="task">
+    <!-- <TK_Task name="Patent Searching" Tk_TotalTime="25:02:26"> -->
+    <xs:sequence>
+      <xs:element name="TK_TimeRecord" type="timeRecord" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="TK_TotalTime" type="xs:time"/>
+  </xs:complexType>
+
+  <!-- TK_Task current task version.-->
+  <xs:complexType name="currentTask">
+   <!-- <TK_TimeRecord isCurrent="true"> -->
+   <xs:sequence>
+     <xs:element name="TK_TimeRecord" type="currentTimeRecord" minOccurs="0" maxOccurs="unbounded"/>
+   </xs:sequence>
+   <xs:attribute name="isCurrent" type="xs:boolean"/>
+  </xs:complexType>
+
+</xs:schema>

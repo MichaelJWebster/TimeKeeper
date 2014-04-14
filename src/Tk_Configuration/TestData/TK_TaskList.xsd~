@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="file:///Users/michaelwebster/java_programming/TimeKeeperModel">
+  <xs:element name="TK_TaskList">
+    <xs:complexType>
+
+      <xs:choice id="TK_AllTasks" minOccurs="0" maxOccurs="2">
+
+	<xs:element name="TK_CurrentTasks" minOccurs="0" maxOccurs="1">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="TK_TaskName" type="TaskName" minOccurs="0" maxOccurs="unbounded"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="TK_RetiredTasks" minOccurs="0" maxOccurs="1">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="TK_TaskName" type="TaskName" minOccurs="0" maxOccurs="unbounded"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+
+      </xs:choice>
+
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="TaskName">
+    <xs:simpleContent>
+      <xs:extension base="xs:string"/>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TK_History>
+<TK_CurrentTasks>
+<TK_Task TK_TotalTime="P0Y0M0DT0H2M6.008S" isCurrent="false" name="JobSearch">
+<TK_TimeRecord>
+<TK_StartTime>2013-11-11T14:14:31</TK_StartTime>
+<TK_EndTime>2013-11-11T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT2M</TK_ElapsedTime>
+</TK_TimeRecord>
+<TK_TimeRecord>
+<TK_StartTime>2013-12-16T13:15:42.905+11:00</TK_StartTime>
+<TK_EndTime>2013-12-16T13:15:45.910+11:00</TK_EndTime>
+<TK_ElapsedTime>P0Y0M0DT0H0M3.005S</TK_ElapsedTime>
+</TK_TimeRecord>
+<TK_TimeRecord>
+<TK_StartTime>2013-12-16T13:15:47.708+11:00</TK_StartTime>
+<TK_EndTime>2013-12-16T13:15:50.711+11:00</TK_EndTime>
+<TK_ElapsedTime>P0Y0M0DT0H0M3.003S</TK_ElapsedTime>
+</TK_TimeRecord>
+</TK_Task>
+<TK_Task TK_TotalTime="P0Y0M0DT25H1M86S" isCurrent="false" name="Programming">
+<TK_TimeRecord>
+<TK_StartTime>2013-11-13T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT43S</TK_ElapsedTime>
+</TK_TimeRecord>
+<TK_TimeRecord>
+<TK_StartTime>2013-11-12T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT25H1M43S</TK_ElapsedTime>
+</TK_TimeRecord>
+</TK_Task>
+<TK_Task TK_TotalTime="P0Y0M0DT0H0M0.000S" isCurrent="false" name="adca meeting"/>
+<TK_Task TK_TotalTime="P0Y0M0DT0H0M0.000S" isCurrent="false" name="shower"/>
+<TK_Task TK_TotalTime="P0Y0M0DT0H0M0.000S" isCurrent="false" name="Documenting TimeKeeper"/>
+</TK_CurrentTasks>
+<TK_RetiredTasks>
+<TK_Task TK_TotalTime="P0Y0M0DT0H2M0S" isCurrent="false" name="Analysing bigdata">
+<TK_TimeRecord>
+<TK_StartTime>2013-11-11T14:14:31</TK_StartTime>
+<TK_EndTime>2013-11-11T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT2M</TK_ElapsedTime>
+</TK_TimeRecord>
+</TK_Task>
+<TK_Task TK_TotalTime="P0Y0M0DT25H1M86S" isCurrent="false" name="Patent Searching">
+<TK_TimeRecord>
+<TK_StartTime>2013-11-13T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT43S</TK_ElapsedTime>
+</TK_TimeRecord>
+<TK_TimeRecord>
+<TK_StartTime>2013-11-12T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT25H1M43S</TK_ElapsedTime>
+</TK_TimeRecord>
+</TK_Task>
+<TK_Task TK_TotalTime="P0Y0M0DT0H0M0.000S" isCurrent="false" name="Design main window"/>
+</TK_RetiredTasks>
+<TK_DeletedTasks>
+<TK_Task TK_TotalTime="P0Y0M0DT25H1M86S" isCurrent="false" name="Patent Searching">
+<TK_TimeRecord>
+<TK_StartTime>2013-11-13T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT43S</TK_ElapsedTime>
+</TK_TimeRecord>
+<TK_TimeRecord>
+<TK_StartTime>2013-11-12T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT25H1M43S</TK_ElapsedTime>
+</TK_TimeRecord>
+</TK_Task>
+<TK_Task TK_TotalTime="P0Y0M0DT0H2M0S" isCurrent="false" name="Analysing bigdata">
+<TK_TimeRecord>
+<TK_StartTime>2013-11-11T14:14:31</TK_StartTime>
+<TK_EndTime>2013-11-11T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT2M</TK_ElapsedTime>
+</TK_TimeRecord>
+</TK_Task>
+<TK_Task TK_TotalTime="P0Y0M0DT25H1M86S" isCurrent="false" name="Programming">
+<TK_TimeRecord>
+<TK_StartTime>2013-11-13T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT43S</TK_ElapsedTime>
+</TK_TimeRecord>
+<TK_TimeRecord>
+<TK_StartTime>2013-11-12T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT25H1M43S</TK_ElapsedTime>
+</TK_TimeRecord>
+</TK_Task>
+<TK_Task TK_TotalTime="P0Y0M0DT0H2M0S" isCurrent="false" name="Cooking meth">
+<TK_TimeRecord>
+<TK_StartTime>2013-11-11T14:14:31</TK_StartTime>
+<TK_EndTime>2013-11-11T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT2M</TK_ElapsedTime>
+</TK_TimeRecord>
+</TK_Task>
+<TK_Task TK_TotalTime="P0Y0M0DT25H1M86S" isCurrent="false" name="Watching birds">
+<TK_TimeRecord>
+<TK_StartTime>2013-11-13T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT43S</TK_ElapsedTime>
+</TK_TimeRecord>
+<TK_TimeRecord>
+<TK_StartTime>2013-11-12T16:13:48</TK_StartTime>
+<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+<TK_ElapsedTime>PT25H1M43S</TK_ElapsedTime>
+</TK_TimeRecord>
+</TK_Task>
+</TK_DeletedTasks>
+</TK_History>

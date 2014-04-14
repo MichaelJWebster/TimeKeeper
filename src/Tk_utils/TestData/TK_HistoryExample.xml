@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TK_History>
+  <TK_CurrentTasks>
+    <TK_Task name="Programming" isCurrent="true" TK_TotalTime="PT25H02M26S">
+      <TK_TimeRecord isCurrent="true">
+	<TK_StartTime>2013-11-13T16:13:48</TK_StartTime>
+	<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+	<TK_ElapsedTime>PT43S</TK_ElapsedTime>
+      </TK_TimeRecord>
+      <TK_TimeRecord isCurrent="false">
+	<TK_StartTime>2013-11-12T16:13:48</TK_StartTime>
+	<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+	<TK_ElapsedTime>PT25H01M43S</TK_ElapsedTime>
+      </TK_TimeRecord>
+    </TK_Task>
+    <TK_Task name="JobSearch" isCurrent="false" TK_TotalTime="PT1H">
+      <TK_TimeRecord isCurrent="false">
+	<TK_StartTime>2013-11-11T14:14:31</TK_StartTime>
+	<TK_EndTime>2013-11-11T16:14:31</TK_EndTime>
+	<TK_ElapsedTime>PT2M</TK_ElapsedTime>
+      </TK_TimeRecord>
+    </TK_Task>
+  </TK_CurrentTasks>
+  <TK_RetiredTasks>
+    <TK_Task name="Patent Searching" TK_TotalTime="PT25H02M26S">
+      <TK_TimeRecord>
+	<TK_StartTime>2013-11-13T16:13:48</TK_StartTime>
+	<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+	<TK_ElapsedTime>PT43S</TK_ElapsedTime>
+      </TK_TimeRecord>
+      <TK_TimeRecord>
+	<TK_StartTime>2013-11-12T16:13:48</TK_StartTime>
+	<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+	<TK_ElapsedTime>PT25H01M43S</TK_ElapsedTime>
+      </TK_TimeRecord>
+    </TK_Task>
+    <TK_Task name="Analysing bigdata" TK_TotalTime="PT1H">
+      <TK_TimeRecord>
+	<TK_StartTime>2013-11-11T14:14:31</TK_StartTime>
+	<TK_EndTime>2013-11-11T16:14:31</TK_EndTime>
+	<TK_ElapsedTime>PT02M</TK_ElapsedTime>
+      </TK_TimeRecord>
+    </TK_Task>
+  </TK_RetiredTasks>
+  <TK_DeletedTasks>
+    <TK_Task name="Watching birds" TK_TotalTime="PT25H02M26S">
+      <TK_TimeRecord>
+	<TK_StartTime>2013-11-13T16:13:48</TK_StartTime>
+	<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+	<TK_ElapsedTime>PT43S</TK_ElapsedTime>
+      </TK_TimeRecord>
+      <TK_TimeRecord>
+	<TK_StartTime>2013-11-12T16:13:48</TK_StartTime>
+	<TK_EndTime>2013-11-13T16:14:31</TK_EndTime>
+	<TK_ElapsedTime>PT25H01M43S</TK_ElapsedTime>
+      </TK_TimeRecord>
+    </TK_Task>
+    <TK_Task name="Cooking meth" TK_TotalTime="PT1H">
+      <TK_TimeRecord>
+	<TK_StartTime>2013-11-11T14:14:31</TK_StartTime>
+	<TK_EndTime>2013-11-11T16:14:31</TK_EndTime>
+	<TK_ElapsedTime>PT2M</TK_ElapsedTime>
+      </TK_TimeRecord>
+    </TK_Task>
+  </TK_DeletedTasks>
+</TK_History>

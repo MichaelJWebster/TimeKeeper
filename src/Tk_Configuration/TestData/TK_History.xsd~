@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="file:///Users/michaelwebster/java_programming/TimeKeeperModel">
+  <xs:element name="TK_History">
+    <xs:complexType>
+      <xs:choice id="TK_AllTasks" minOccurs="0" maxOccurs="3">
+	<xs:element name="TK_CurrentTasks" minOccurs="0" maxOccurs="1">
+	  <xs:complexType>
+	    <xs:complexContent>
+	      <xs:restriction base="xs:anyType">
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="TK_CurrentTask" type="xs:boolean"/>
+		<xs:attribute name="TK_TotalTime" type="xs:time"/>
+	      </xs:restriction>
+		<xs:sequence>
+		  <xs:element name="TK_TimeRecord">
+		    <xs:complexType>
+		      <xs:sequence>
+			<xs:element name="TK_StartTime" type="xs:dateTime" minOccurs="1"/>
+			<xs:element name="TK_EndTime" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="TK_ElapsedTime" type="xs:time" minOccurs="0"/>
+		      </xs:sequence>
+		    </xs:complexType>
+		  </xs:element>
+		</xs:sequence>
+	    </xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="TK_RetiredTasks" minOccurs="0" maxOccurs="1">
+	  <xs:complexType>
+	    <xs:complexContent>
+	      <xs:restriction base="xs:anyType">
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="TK_TotalTime" type="xs:time"/>
+	      </xs:restriction>
+		<xs:sequence>
+		  <xs:element name="TK_TimeRecord">
+		    <xs:complexType>
+		      <xs:sequence>
+			<xs:element name="TK_StartTime" type="xs:dateTime" minOccurs="1"/>
+			<xs:element name="TK_EndTime" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="TK_ElapsedTime" type="xs:time" minOccurs="0"/>
+		      </xs:sequence>
+		    </xs:complexType>
+		  </xs:element>
+		</xs:sequence>
+	    </xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+	<xs:element name="TK_CurrentTasks" minOccurs="0" maxOccurs="1">
+	  <xs:complexType>
+	    <xs:complexContent>
+	      <xs:restriction base="xs:anyType">
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="TK_TotalTime" type="xs:time"/>
+	      </xs:restriction>
+		<xs:sequence>
+		  <xs:element name="TK_TimeRecord">
+		    <xs:complexType>
+		      <xs:sequence>
+			<xs:element name="TK_StartTime" type="xs:dateTime" minOccurs="1"/>
+			<xs:element name="TK_EndTime" type="xs:dateTime" minOccurs="0"/>
+			<xs:element name="TK_ElapsedTime" type="xs:time" minOccurs="0"/>
+		      </xs:sequence>
+		    </xs:complexType>
+		  </xs:element>
+		</xs:sequence>
+	    </xs:complexContent>
+	  </xs:complexType>
+	</xs:element>
+      </xs:choice>
+
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
